@@ -13,6 +13,7 @@
     --red: #d63a25;
     --white: #fff;
     --dark: #1e1c2a;
+    --btn: #fc4c35;
 
 }
 
@@ -104,4 +105,27 @@ body {
     font-size: 1.5rem;
     color: var(--red);
     margin-bottom: 1rem;
+}
+
+.home-text .text-h1 {
+    font-size: 4rem;
+    margin-bottom: 1rem;
+    line-height: 4rem;
+}
+
+.home-text p {
+    margin: 4rem;
+}
+
+.home-btn {
+    padding: 15px 45px;
+    background: var(--red);
+    color: var(--white);
+    border-radius: 8px;
+    font-size: 500;
+    transition: all 0.5s;
+}
+
+.home-btn:hover {
+    background: var(--btn);
 }
